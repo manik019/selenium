@@ -1,0 +1,38 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from RunnerTest</title>
+</head>
+<body>
+<pre>I am going to loginURL on  Mozilla
+Login - failure
+I am going to loginURL on  Mozilla
+Login - success
+I am going to loginURL on  Chrome
+Login - failure
+I am going to loginURL on  Chrome
+Login - success
+
+[31mFailed scenarios:[0m
+[31mFeature_Files/LogIn.feature:14 [0m# Scenario Outline: Logging in salesforce
+[31mFeature_Files/LogIn.feature:16 [0m# Scenario Outline: Logging in salesforce
+
+4 Scenarios ([31m2 failed[0m, [32m2 passed[0m)
+20 Steps ([31m2 failed[0m, [32m18 passed[0m)
+1m25.657s
+
+org.junit.ComparisonFailure: expected:&lt;[success]&gt; but was:&lt;[failure]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ?.Then Login should be "success"(Feature_Files/LogIn.feature:9)
+
+org.junit.ComparisonFailure: expected:&lt;[success]&gt; but was:&lt;[failure]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ?.Then Login should be "success"(Feature_Files/LogIn.feature:9)
+
+</pre>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="4" hostname="DESKTOP-28UA432" name="com.salesforce.app.salesforce_login.RunnerTest" skipped="0" tests="40" time="86.646" timestamp="2017-08-16T03:08:10">
+  <properties>
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+    <property name="ws.jars" value="C:\selenium java 3.4\Selenium jars" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed" />
+    <property name="env.USERNAME" value="mmi02" />
+    <property name="env.HUDSON_HOME" value="C:\Users\mmi02\.jenkins" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-28UA432" />
+    <property name="env.=C:" value="C:\My Selenium Projects\salesforce_login" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="java.version" value="1.8.0_131" />
+    <property name="test.dest" value="C:\My Selenium Projects\salesforce_login/build" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="env.NODE_LABELS" value="master" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="01d562eeb98dc382" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.USERPROFILE" value="C:\Users\mmi02" />
+    <property name="ant.project.invoked-targets" value="compile,run" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="ant.file.type.Module_Cucumber" value="file" />
+    <property name="user.name" value="mmi02" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\mmi02\AppData\Local" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="user.script" value="" />
+    <property name="path.separator" value=";" />
+    <property name="ant.file.Module_Cucumber" value="C:\My Selenium Projects\salesforce_login\build.xml" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_131\bin\java.exe" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.default-target" value="usage" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.salesforce.app.salesforce_login.RunnerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\My Selenium Projects\salesforce_login\target\ant_reports\TEST-com.salesforce.app.salesforce_login.RunnerTest.xml crashfile=C:\My Selenium Projects\salesforce_login\junitvmwatcher4332083642052695270.properties propsfile=C:\My Selenium Projects\salesforce_login\junit1207285228899961721.properties" />
+    <property name="env.RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/newProject/default/7/display/redirect" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.APPDATA" value="C:\Users\mmi02\AppData\Roaming" />
+    <property name="ant.file" value="C:\My Selenium Projects\salesforce_login\build.xml" />
+    <property name="env.BUILD_TAG" value="jenkins-newProject-default-7" />
+    <property name="start.time" value="08/15/2017 10:08 PM" />
+    <property name="java.io.tmpdir" value="C:\Users\mmi02\AppData\Local\Temp\" />
+    <property name="TODAY" value="August 15 2017" />
+    <property name="user.language" value="en" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.file.type" value="file" />
+    <property name="ANT" value="C:\apache-ant-1.10.1/bin/ant.bat" />
+    <property name="env.JOB_NAME" value="newProject/default" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#7" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/newProject/default/display/redirect" />
+    <property name="env.M2_HOME" value="C:\selenium java 3.4\apache-maven-3.5.0-bin\apache-maven-3.5.0" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-28UA432" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-28UA432" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="01d562eeb98dc382" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="test.src" value="C:\My Selenium Projects\salesforce_login/src" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="env.USERDOMAIN" value="DESKTOP-28UA432" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.BUILD_NUMBER" value="7" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TMP" value="C:\Users\mmi02\AppData\Local\Temp" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\bin;C:\apache-ant-1.10.1\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jre1.8.0_141\bin;D:\nazat\software\chromedriver_win32;D:\nazat\software\IEDriverServer_Win32_3.4.0;C:\selenium java 3.4\geckodriver-v0.18.0-win64;C:\selenium java 3.4\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mmi02\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="ant.java.version" value="1.8" />
+    <property name="basedir" value="C:\My Selenium Projects\salesforce_login" />
+    <property name="java.class.version" value="52.0" />
+    <property name="ant.home" value="C:\apache-ant-1.10.1" />
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\bin;C:\apache-ant-1.10.1\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jre1.8.0_141\bin;D:\nazat\software\chromedriver_win32;D:\nazat\software\IEDriverServer_Win32_3.4.0;C:\selenium java 3.4\geckodriver-v0.18.0-win64;C:\selenium java 3.4\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mmi02\AppData\Local\Microsoft\WindowsApps;" />
+    <property name="env.JENKINS_HOME" value="C:\Users\mmi02\.jenkins" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="test.reportsDir" value="C:\My Selenium Projects\salesforce_login\target\ant_reports" />
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/newProject/default/7/display/redirect?page=changes" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin" />
+    <property name="env.PROCESSOR_REVISION" value="3d04" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="env.asl.log" value="Destination=file" />
+    <property name="ant.project.name" value="Module_Cucumber" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="env.MAVEN_HOME" value="C:\selenium java 3.4\apache-maven-3.5.0-bin\apache-maven-3.5.0" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="os.version" value="10.0" />
+    <property name="user.home" value="C:\Users\mmi02" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="user.dir" value="C:\My Selenium Projects\salesforce_login" />
+    <property name="test.classpath" value="C:\selenium java 3.4\Selenium jars\cdi-api-1.2.jar:C:\selenium java 3.4\Selenium jars\cglib-nodep-3.2.4.jar:C:\selenium java 3.4\Selenium jars\client-combined-3.4.0-nodeps.jar:C:\selenium java 3.4\Selenium jars\commons-codec-1.10.jar:C:\selenium java 3.4\Selenium jars\commons-collections4-4.1.jar:C:\selenium java 3.4\Selenium jars\commons-exec-1.3.jar:C:\selenium java 3.4\Selenium jars\commons-io-2.5.jar:C:\selenium java 3.4\Selenium jars\commons-lang3-3.5.jar:C:\selenium java 3.4\Selenium jars\commons-logging-1.2.jar:C:\selenium java 3.4\Selenium jars\cssparser-0.9.22.jar:C:\selenium java 3.4\Selenium jars\cucumber-0.15.1.jar:C:\selenium java 3.4\Selenium jars\cucumber-core-1.2.4.jar:C:\selenium java 3.4\Selenium jars\cucumber-html-0.2.3.jar:C:\selenium java 3.4\Selenium jars\cucumber-java-1.2.4.jar:C:\selenium java 3.4\Selenium jars\cucumber-junit-1.2.4.jar:C:\selenium java 3.4\Selenium jars\cucumber-jvm-deps-1.0.5.jar:C:\selenium java 3.4\Selenium jars\curvesapi-1.04.jar:C:\selenium java 3.4\Selenium jars\deltaspike-cdictrl-api-1.6.0.jar:C:\selenium java 3.4\Selenium jars\deltaspike-core-api-1.6.0.jar:C:\selenium java 3.4\Selenium jars\deltaspike-core-impl-1.6.0.jar:C:\selenium java 3.4\Selenium jars\deltaspike-test-control-module-api-1.6.0.jar:C:\selenium java 3.4\Selenium jars\deltaspike-test-control-module-impl-1.6.0.jar:C:\selenium java 3.4\Selenium jars\gherkin-2.12.2.jar:C:\selenium java 3.4\Selenium jars\gson-2.8.0.jar:C:\selenium java 3.4\Selenium jars\guava-21.0.jar:C:\selenium java 3.4\Selenium jars\hamcrest-core-1.3.jar:C:\selenium java 3.4\Selenium jars\htmlunit-2.26.jar:C:\selenium java 3.4\Selenium jars\htmlunit-core-js-2.26.jar:C:\selenium java 3.4\Selenium jars\htmlunit-driver-2.26.jar:C:\selenium java 3.4\Selenium jars\httpclient-4.5.3.jar:C:\selenium java 3.4\Selenium jars\httpcore-4.4.6.jar:C:\selenium java 3.4\Selenium jars\httpmime-4.5.3.jar:C:\selenium java 3.4\Selenium jars\javax.el-api-3.0.0.jar:C:\selenium java 3.4\Selenium jars\javax.inject-1.jar:C:\selenium java 3.4\Selenium jars\javax.interceptor-api-1.2.jar:C:\selenium java 3.4\Selenium jars\javax.servlet-api-3.1.0.jar:C:\selenium java 3.4\Selenium jars\jetty-io-9.4.1.v20170120.jar:C:\selenium java 3.4\Selenium jars\jetty-util-9.4.1.v20170120.jar:C:\selenium java 3.4\Selenium jars\jna-4.1.0.jar:C:\selenium java 3.4\Selenium jars\jna-platform-4.1.0.jar:C:\selenium java 3.4\Selenium jars\junit-4.12.jar:C:\selenium java 3.4\Selenium jars\jxl-2.6.12.jar:C:\selenium java 3.4\Selenium jars\log4j-1.2.17.jar:C:\selenium java 3.4\Selenium jars\neko-htmlunit-2.25.jar:C:\selenium java 3.4\Selenium jars\phantomjsdriver-1.4.0.jar:C:\selenium java 3.4\Selenium jars\poi-3.16.jar:C:\selenium java 3.4\Selenium jars\poi-examples-3.16.jar:C:\selenium java 3.4\Selenium jars\poi-excelant-3.16.jar:C:\selenium java 3.4\Selenium jars\poi-ooxml-3.16.jar:C:\selenium java 3.4\Selenium jars\poi-ooxml-schemas-3.16.jar:C:\selenium java 3.4\Selenium jars\poi-scratchpad-3.16.jar:C:\selenium java 3.4\Selenium jars\sac-1.3.jar:C:\selenium java 3.4\Selenium jars\serializer-2.7.2.jar:C:\selenium java 3.4\Selenium jars\testng-6.9.4.jar:C:\selenium java 3.4\Selenium jars\websocket-api-9.4.3.v20170317.jar:C:\selenium java 3.4\Selenium jars\websocket-client-9.4.3.v20170317.jar:C:\selenium java 3.4\Selenium jars\websocket-common-9.4.3.v20170317.jar:C:\selenium java 3.4\Selenium jars\xalan-2.7.2.jar:C:\selenium java 3.4\Selenium jars\xercesImpl-2.11.0.jar:C:\selenium java 3.4\Selenium jars\xml-apis-1.4.01.jar:C:\selenium java 3.4\Selenium jars\xmlbeans-2.6.0.jar" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.version" value="25.131-b11" />
+    <property name="java.class.path" value="C:\My Selenium Projects\salesforce_login\build;C:\selenium java 3.4\Selenium jars\cdi-api-1.2.jar;C:\selenium java 3.4\Selenium jars\cglib-nodep-3.2.4.jar;C:\selenium java 3.4\Selenium jars\client-combined-3.4.0-nodeps.jar;C:\selenium java 3.4\Selenium jars\commons-codec-1.10.jar;C:\selenium java 3.4\Selenium jars\commons-collections4-4.1.jar;C:\selenium java 3.4\Selenium jars\commons-exec-1.3.jar;C:\selenium java 3.4\Selenium jars\commons-io-2.5.jar;C:\selenium java 3.4\Selenium jars\commons-lang3-3.5.jar;C:\selenium java 3.4\Selenium jars\commons-logging-1.2.jar;C:\selenium java 3.4\Selenium jars\cssparser-0.9.22.jar;C:\selenium java 3.4\Selenium jars\cucumber-0.15.1.jar;C:\selenium java 3.4\Selenium jars\cucumber-core-1.2.4.jar;C:\selenium java 3.4\Selenium jars\cucumber-html-0.2.3.jar;C:\selenium java 3.4\Selenium jars\cucumber-java-1.2.4.jar;C:\selenium java 3.4\Selenium jars\cucumber-junit-1.2.4.jar;C:\selenium java 3.4\Selenium jars\cucumber-jvm-deps-1.0.5.jar;C:\selenium java 3.4\Selenium jars\curvesapi-1.04.jar;C:\selenium java 3.4\Selenium jars\deltaspike-cdictrl-api-1.6.0.jar;C:\selenium java 3.4\Selenium jars\deltaspike-core-api-1.6.0.jar;C:\selenium java 3.4\Selenium jars\deltaspike-core-impl-1.6.0.jar;C:\selenium java 3.4\Selenium jars\deltaspike-test-control-module-api-1.6.0.jar;C:\selenium java 3.4\Selenium jars\deltaspike-test-control-module-impl-1.6.0.jar;C:\selenium java 3.4\Selenium jars\gherkin-2.12.2.jar;C:\selenium java 3.4\Selenium jars\gson-2.8.0.jar;C:\selenium java 3.4\Selenium jars\guava-21.0.jar;C:\selenium java 3.4\Selenium jars\hamcrest-core-1.3.jar;C:\selenium java 3.4\Selenium jars\htmlunit-2.26.jar;C:\selenium java 3.4\Selenium jars\htmlunit-core-js-2.26.jar;C:\selenium java 3.4\Selenium jars\htmlunit-driver-2.26.jar;C:\selenium java 3.4\Selenium jars\httpclient-4.5.3.jar;C:\selenium java 3.4\Selenium jars\httpcore-4.4.6.jar;C:\selenium java 3.4\Selenium jars\httpmime-4.5.3.jar;C:\selenium java 3.4\Selenium jars\javax.el-api-3.0.0.jar;C:\selenium java 3.4\Selenium jars\javax.inject-1.jar;C:\selenium java 3.4\Selenium jars\javax.interceptor-api-1.2.jar;C:\selenium java 3.4\Selenium jars\javax.servlet-api-3.1.0.jar;C:\selenium java 3.4\Selenium jars\jetty-io-9.4.1.v20170120.jar;C:\selenium java 3.4\Selenium jars\jetty-util-9.4.1.v20170120.jar;C:\selenium java 3.4\Selenium jars\jna-4.1.0.jar;C:\selenium java 3.4\Selenium jars\jna-platform-4.1.0.jar;C:\selenium java 3.4\Selenium jars\junit-4.12.jar;C:\selenium java 3.4\Selenium jars\jxl-2.6.12.jar;C:\selenium java 3.4\Selenium jars\log4j-1.2.17.jar;C:\selenium java 3.4\Selenium jars\neko-htmlunit-2.25.jar;C:\selenium java 3.4\Selenium jars\phantomjsdriver-1.4.0.jar;C:\selenium java 3.4\Selenium jars\poi-3.16.jar;C:\selenium java 3.4\Selenium jars\poi-examples-3.16.jar;C:\selenium java 3.4\Selenium jars\poi-excelant-3.16.jar;C:\selenium java 3.4\Selenium jars\poi-ooxml-3.16.jar;C:\selenium java 3.4\Selenium jars\poi-ooxml-schemas-3.16.jar;C:\selenium java 3.4\Selenium jars\poi-scratchpad-3.16.jar;C:\selenium java 3.4\Selenium jars\sac-1.3.jar;C:\selenium java 3.4\Selenium jars\serializer-2.7.2.jar;C:\selenium java 3.4\Selenium jars\testng-6.9.4.jar;C:\selenium java 3.4\Selenium jars\websocket-api-9.4.3.v20170317.jar;C:\selenium java 3.4\Selenium jars\websocket-client-9.4.3.v20170317.jar;C:\selenium java 3.4\Selenium jars\websocket-common-9.4.3.v20170317.jar;C:\selenium java 3.4\Selenium jars\xalan-2.7.2.jar;C:\selenium java 3.4\Selenium jars\xercesImpl-2.11.0.jar;C:\selenium java 3.4\Selenium jars\xml-apis-1.4.01.jar;C:\selenium java 3.4\Selenium jars\xmlbeans-2.6.0.jar;C:\apache-ant-1.10.1\lib\ant-launcher.jar;C:\apache-ant-1.10.1\lib\ant.jar;C:\apache-ant-1.10.1\lib\ant-junit.jar;C:\apache-ant-1.10.1\lib\ant-junit4.jar" />
+    <property name="env.HOMEPATH" value="\Users\mmi02" />
+    <property name="DSTAMP" value="20170815" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.10.1\lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.OneDrive" value="C:\Users\mmi02\OneDrive" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.BUILD_ID" value="7" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.10.1\lib\ant.jar" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="TSTAMP" value="2208" />
+    <property name="file.separator" value="\" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" -file build.xml compile run" />
+    <property name="java.runtime.version" value="1.8.0_131-b11" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.WORKSPACE" value="C:\Users\mmi02\.jenkins\workspace\newProject\default" />
+    <property name="env.TEMP" value="C:\Users\mmi02\AppData\Local\Temp" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.10.1" />
+    <property name="user.country" value="US" />
+    <property name="ws.home" value="C:\My Selenium Projects\salesforce_login" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.JOB_BASE_NAME" value="default" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX" />
+    <property name="env.HUDSON_COOKIE" value="d533b449-6e4b-493f-af64-208943f489d6" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="sun.arch.data.model" value="64" />
+  </properties>
+  <testcase classname="| Mozilla | monirul.islam.ece@gmail.com | manik019 | failure |" name="Given I go to &quot;loginURL&quot; on &quot;Mozilla&quot;" time="0.001" />
+  <testcase classname="| Mozilla | monirul.islam.ece@gmail.com | manik019 | failure |" name="And I enter &quot;loginusername&quot; as &quot;monirul.islam.ece@gmail.com&quot;" time="0.0" />
+  <testcase classname="| Mozilla | monirul.islam.ece@gmail.com | manik019 | failure |" name="And I enter &quot;loginpassword&quot; as &quot;manik019&quot;" time="0.0" />
+  <testcase classname="| Mozilla | monirul.islam.ece@gmail.com | manik019 | failure |" name="And I click on &quot;loginButton&quot;" time="0.0" />
+  <testcase classname="| Mozilla | monirul.islam.ece@gmail.com | manik019 | failure |" name="Then Login should be &quot;failure&quot;" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="| Mozilla | monirul.islam.ece@gmail.com | manik019 | failure |" time="22.303" />
+  <testcase classname="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="Given I go to &quot;loginURL&quot; on &quot;Mozilla&quot;" time="0.0" />
+  <testcase classname="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="And I enter &quot;loginusername&quot; as &quot;loadrunner.jmeter@gmail.com&quot;" time="0.0" />
+  <testcase classname="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="And I enter &quot;loginpassword&quot; as &quot;pass@1234&quot;" time="0.001" />
+  <testcase classname="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="And I click on &quot;loginButton&quot;" time="0.0" />
+  <testcase classname="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="Then Login should be &quot;success&quot;" time="0.007">
+    <failure message="expected:&lt;[success]&gt; but was:&lt;[failure]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[success]&gt; but was:&lt;[failure]&gt;
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ✽.Then Login should be &quot;success&quot;(Feature_Files/LogIn.feature:9)
+</failure>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" time="19.736">
+    <failure message="expected:&lt;[success]&gt; but was:&lt;[failure]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[success]&gt; but was:&lt;[failure]&gt;
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ✽.Then Login should be &quot;success&quot;(Feature_Files/LogIn.feature:9)
+</failure>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="| Mozilla | loadrunner.jmeter@gmail.com | pass@1234 | success |" time="19.739" />
+  <testcase classname="| Chrome | xxxxx | zxxxx | failure |" name="Given I go to &quot;loginURL&quot; on &quot;Chrome&quot;" time="0.0" />
+  <testcase classname="| Chrome | xxxxx | zxxxx | failure |" name="And I enter &quot;loginusername&quot; as &quot;xxxxx&quot;" time="0.001" />
+  <testcase classname="| Chrome | xxxxx | zxxxx | failure |" name="And I enter &quot;loginpassword&quot; as &quot;zxxxx&quot;" time="0.0" />
+  <testcase classname="| Chrome | xxxxx | zxxxx | failure |" name="And I click on &quot;loginButton&quot;" time="0.001" />
+  <testcase classname="| Chrome | xxxxx | zxxxx | failure |" name="Then Login should be &quot;failure&quot;" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="| Chrome | xxxxx | zxxxx | failure |" time="19.647" />
+  <testcase classname="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="Given I go to &quot;loginURL&quot; on &quot;Chrome&quot;" time="0.0" />
+  <testcase classname="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="And I enter &quot;loginusername&quot; as &quot;loadrunner.jmeter@gmail.com&quot;" time="0.0" />
+  <testcase classname="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="And I enter &quot;loginpassword&quot; as &quot;pass@1234&quot;" time="0.0" />
+  <testcase classname="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="And I click on &quot;loginButton&quot;" time="0.0" />
+  <testcase classname="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" name="Then Login should be &quot;success&quot;" time="0.0">
+    <failure message="expected:&lt;[success]&gt; but was:&lt;[failure]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[success]&gt; but was:&lt;[failure]&gt;
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ✽.Then Login should be &quot;success&quot;(Feature_Files/LogIn.feature:9)
+</failure>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" time="24.24">
+    <failure message="expected:&lt;[success]&gt; but was:&lt;[failure]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[success]&gt; but was:&lt;[failure]&gt;
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ✽.Then Login should be &quot;success&quot;(Feature_Files/LogIn.feature:9)
+</failure>
+  </testcase>
+  <testcase classname="junit.framework.TestSuite" name="| Chrome | loadrunner.jmeter@gmail.com | pass@1234 | success |" time="24.241" />
+  <system-out><![CDATA[I am going to loginURL on  Mozilla
+Login - failure
+I am going to loginURL on  Mozilla
+Login - success
+I am going to loginURL on  Chrome
+Login - failure
+I am going to loginURL on  Chrome
+Login - success
+
+[31mFailed scenarios:[0m
+[31mFeature_Files/LogIn.feature:14 [0m# Scenario Outline: Logging in salesforce
+[31mFeature_Files/LogIn.feature:16 [0m# Scenario Outline: Logging in salesforce
+
+4 Scenarios ([31m2 failed[0m, [32m2 passed[0m)
+20 Steps ([31m2 failed[0m, [32m18 passed[0m)
+1m25.657s
+
+org.junit.ComparisonFailure: expected:<[success]> but was:<[failure]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ?.Then Login should be "success"(Feature_Files/LogIn.feature:9)
+
+org.junit.ComparisonFailure: expected:<[success]> but was:<[failure]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.salesforce.app.salesforce_login.LogIn.Then_login_should_be(LogIn.java:47)
+	at ?.Then Login should be "success"(Feature_Files/LogIn.feature:9)
+
+]]></system-out>
+  <system-err><![CDATA[Aug 15, 2017 10:08:11 PM org.apache.deltaspike.core.util.ProjectStageProducer initProjectStage
+INFO: Computed the following DeltaSpike ProjectStage: Production
+Aug 15, 2017 10:08:11 PM cucumber.runtime.CucumberObjectFactory getInstance
+WARNING: Could not get reference of com.salesforce.app.salesforce_login.LogIn using BeanManager, message: No org.apache.deltaspike.core.api.provider.BeanManagerProvider in place! Please ensure that you configured the CDI implementation of your choice properly. If your setup is correct, please clear all caches and compiled artifacts.. Falling back to newInstance()
+1502852893743	geckodriver	INFO	geckodriver 0.18.0
+1502852893752	geckodriver	INFO	Listening on 127.0.0.1:15825
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+1502852894630	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502852902113	Marionette	INFO	Listening on port 55012
+Aug 15, 2017 10:08:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2017 10:08:32 PM cucumber.runtime.CucumberObjectFactory getInstance
+WARNING: Could not get reference of com.salesforce.app.salesforce_login.LogIn using BeanManager, message: No org.apache.deltaspike.core.api.provider.BeanManagerProvider in place! Please ensure that you configured the CDI implementation of your choice properly. If your setup is correct, please clear all caches and compiled artifacts.. Falling back to newInstance()
+1502852912894	geckodriver	INFO	geckodriver 0.18.0
+1502852912905	geckodriver	INFO	Listening on 127.0.0.1:6101
+1502852913559	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502852920045	Marionette	INFO	Listening on port 55060
+Aug 15, 2017 10:08:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 15, 2017 10:08:52 PM cucumber.runtime.CucumberObjectFactory getInstance
+WARNING: Could not get reference of com.salesforce.app.salesforce_login.LogIn using BeanManager, message: No org.apache.deltaspike.core.api.provider.BeanManagerProvider in place! Please ensure that you configured the CDI implementation of your choice properly. If your setup is correct, please clear all caches and compiled artifacts.. Falling back to newInstance()
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 20029
+Only local connections are allowed.
+Aug 15, 2017 10:08:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Aug 15, 2017 10:09:12 PM cucumber.runtime.CucumberObjectFactory getInstance
+WARNING: Could not get reference of com.salesforce.app.salesforce_login.LogIn using BeanManager, message: No org.apache.deltaspike.core.api.provider.BeanManagerProvider in place! Please ensure that you configured the CDI implementation of your choice properly. If your setup is correct, please clear all caches and compiled artifacts.. Falling back to newInstance()
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 45022
+Only local connections are allowed.
+Aug 15, 2017 10:09:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
